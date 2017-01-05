@@ -1,0 +1,12 @@
+version: '2'
+services:
+  test-data:
+    image: instructure/core
+    entrypoint: /usr/bin/tail -f /dev/null
+    volumes:
+      - /usr/src/app/coverage
+
+  test:
+    build: .
+    volumes_from:
+      - test-data:rw
