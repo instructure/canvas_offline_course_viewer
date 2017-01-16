@@ -1,0 +1,36 @@
+.files {
+  display: flex;
+  margin-top: 36px;
+  margin-left: 2em;
+  margin-right: 3em;
+  border-top: 1px solid #C7CDD1;
+  border-bottom: 1px solid #C7CDD1;
+  font-family: LatoWeb, Lato, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.folders {
+  flex-grow: 1;
+}
+
+.file-list-wrapper {
+  flex-grow: 3;
+  border-left: 1px solid #C7CDD1;
+  min-height: 300px;
+  font-size: 0.875rem;
+  padding: 6px;
+}
+
+.file-table {
+  width: 100%;
+}
+
+.file-table th {
+  border-bottom: 1px solid #C7CDD1;
+  text-align: left;
+  padding-bottom: 12px;
+}
+
+.file-table td {
+  padding: 6px;
+}
+

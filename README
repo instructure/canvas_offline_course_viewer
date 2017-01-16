@@ -1,1 +1,5 @@
 This package contains the code for the Canvas offline content viewer.
+
+To compile, run npm run webpack or npm run webpack:watch
+
+To run specs, run npm run test
