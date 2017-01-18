@@ -1,0 +1,28 @@
+.files-view__directions {
+  height: 0;
+  overflow: hidden;
+  &:focus {
+    height: auto;
+  }
+}
+
+.files-view__content {
+  display: flex;
+  margin-top: 36px;
+  margin-left: 32px;
+  margin-right: 48px;
+  border-top: 1px solid #C7CDD1;
+  border-bottom: 1px solid #C7CDD1;
+}
+
+.files-view__folders {
+  flex: 1;
+}
+
+.files-view__list {
+  flex: 3;
+  border-left: 1px solid #C7CDD1;
+  min-height: 300px;
+  font-size: 0.875rem;
+  padding: 6px;
+}

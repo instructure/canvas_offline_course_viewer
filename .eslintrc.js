@@ -17,6 +17,8 @@ module.exports = {
     "no-var": ["error"],
     "prefer-const": ["error"],
 
+    "no-multi-str": ["off"],
+
     "no-alert": ["warn"],
     "no-console": ["warn"],
     "no-debugger": ["warn"],

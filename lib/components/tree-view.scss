@@ -1,0 +1,25 @@
+.treeview__top {
+  padding: 0;
+}
+
+.treeview__group {
+  list-style: none;
+}
+
+.treeview__row {
+  display: flex;
+  align-items: center;
+}
+
+.treeview__item__leaf {
+  padding-left: 6px;
+}
+
+.treeview__button button {
+  color: black;
+  font-size: 0.5rem;
+}
+
+.treeview__text {
+  padding-left: 6px;
+}
