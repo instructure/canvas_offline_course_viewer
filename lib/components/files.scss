@@ -1,11 +1,10 @@
 .files {
   display: flex;
   margin-top: 36px;
-  margin-left: 2em;
-  margin-right: 3em;
+  margin-left: 32px;
+  margin-right: 48px;
   border-top: 1px solid #C7CDD1;
   border-bottom: 1px solid #C7CDD1;
-  font-family: LatoWeb, Lato, "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
 .folders {
@@ -32,5 +31,15 @@
 
 .file-table td {
   padding: 6px;
+}
+
+.file__icon {
+  color: #2D3B45;
+  margin-right: 12px;
+  font-size: 32px;
+}
+
+.file-name {
+  padding-top: 8px;
 }
 
