@@ -6,25 +6,37 @@ window.COURSE_DATA = {
   [
     {
       "type":"file",
-      "name":"MS-XAML.pdf",
+      "name":"test.pdf",
+      "size":2931726,
+      "files":null
+    },
+    {
+      "type":"file",
+      "name":"test.txt",
+      "size":2931726,
+      "files":null
+    },
+    {
+      "type":"file",
+      "name":"test.bin",
       "size":2931726,
       "files":null
     },
     {
       "type":"folder",
-      "name":"Folder 1",
+      "name":"folder1",
       "size":null,
       "files":
       [
         {
           "type":"folder",
-          "name":"Folder 2",
+          "name":"folder2",
           "size":null,
           "files":
           [
             {
               "type":"file",
-              "name":"1.2 Speed Classwork.docx",
+              "name":"test.txt",
               "size":125270,
               "files":null
             }
