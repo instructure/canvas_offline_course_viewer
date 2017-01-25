@@ -1,6 +1,10 @@
+$tableborder: #C7CDD1;
+
 .page-header {
   display: flex;
   justify-content: space-between;
+  padding: 1rem 0.5rem;
+  border-bottom: 1px solid $tableborder;
 }
 
 .page-header__breadcrumb {
