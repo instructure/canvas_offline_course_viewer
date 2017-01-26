@@ -18,6 +18,7 @@
     "test:watch": "jest --watch",
     "test:watch-notify": "jest --watch --notify",
     "test:coverage": "jest --coverage --collectCoverageFrom 'lib/**/*.js'",
+    "tags": "ctags -R -f .tags --options=.tags_options --exclude=@.tags_exclude",
     "clean": "rm -rf dist coverage",
     "release:prep": "script/prep_for_release.sh"
   },

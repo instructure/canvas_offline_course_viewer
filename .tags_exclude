@@ -1,0 +1,8 @@
+dist
+vendor
+node_modules
+.git
+.DS_Store
+config
+coverage
+examples
