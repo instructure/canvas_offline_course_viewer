@@ -6,7 +6,7 @@ var autoprefixer = require('autoprefixer')
 
 module.exports = {
   entry: {
-    bundle: './lib/index.js',
+    bundle: ['babel-polyfill', './lib/index.js'],
   },
 
   output: {
