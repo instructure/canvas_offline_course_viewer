@@ -20,6 +20,8 @@
     "test:debug": "node debug node_modules/.bin/jest -i",
     "test:coverage": "jest --coverage --collectCoverageFrom 'lib/**/*.js'",
     "tags": "ctags -R -f .tags --options=.tags_options --exclude=@.tags_exclude",
+    "example:basic": "cp -R examples/basic-example/* dist/viewer",
+    "example:clean": "rm -rf dist/viewer/course-data.js dist/viewer/files",
     "clean": "rm -rf dist coverage",
     "release:prep": "script/prep_for_release.sh"
   },
