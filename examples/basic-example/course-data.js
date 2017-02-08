@@ -49,7 +49,7 @@ window.COURSE_DATA = {
     {
       "id":1,
       "name":"Module 1",
-      "locked":false,
+      "status":"started",
       "unlockDate":null,
       "prereqs":null,
       "requirement":"all",
@@ -131,7 +131,7 @@ window.COURSE_DATA = {
     {
       "id":2,
       "name":"Module 2",
-      "locked":true,
+      "status":"locked",
       "unlockDate":"2017-05-05T00:00:00Z",
       "prereqs":null,
       "requirement":null,
@@ -157,7 +157,7 @@ window.COURSE_DATA = {
     {
       "id":3,
       "name":"Module 3",
-      "locked":true,
+      "status":"locked",
       "unlockDate":null,
       "prereqs":[1,2],
       "requirement":"one",
