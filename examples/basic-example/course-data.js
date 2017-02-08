@@ -43,6 +43,20 @@ window.COURSE_DATA = {
           ]
         }
       ]
+    },
+    {
+      "type":"folder",
+      "name":"top_folder_2",
+      "size":null,
+      "files":
+      [
+        {
+          "type":"file",
+          "name":"test.txt",
+          "size":1234,
+          "files":null
+        }
+      ]
     }
   ],
   "modules":[
