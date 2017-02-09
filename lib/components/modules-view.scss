@@ -1,4 +1,5 @@
 $tableborder: #C7CDD1;
+$grayedOut: #c1c9cf;
 
 .modules__folder-icon {
   color: #2D3B45;
@@ -57,8 +58,13 @@ $tableborder: #C7CDD1;
       }
     }
 
+
     .module-item__checkmark {
       flex-shrink: 3;
     }
   }
+}
+
+.module-item__row__locked {
+  color: $grayedOut;
 }
