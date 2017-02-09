@@ -7,7 +7,7 @@
 }
 
 .treeview__row {
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 
@@ -15,9 +15,19 @@
   padding-left: 6px;
 }
 
+.treeview__row__selected {
+  background-color: #e0e0e0;
+  border-radius: 3px;
+}
+
 .treeview__button button {
   color: black;
   font-size: 0.5rem;
+}
+
+.treeview__text button {
+  color: black;
+  padding-right: 6px;
 }
 
 .treeview__text {
