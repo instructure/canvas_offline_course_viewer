@@ -1,3 +1,4 @@
+$success: #00AC18;
 $tableborder: #C7CDD1;
 $grayedOut: #c1c9cf;
 
@@ -33,34 +34,36 @@ $grayedOut: #c1c9cf;
     border-left: 1px solid $tableborder;
     border-right: 1px solid $tableborder;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    .module-item__icon {
-      flex-shrink: 3;
-      font-size: 1.5rem;
-    }
-
-    .module-item__title {
-      margin-left: 1.5rem;
-      flex-grow: 3;
+    .module-item__row-contents {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
-      button {
-        align-self: flex-start;
-        color: inherit;
-      }
-      .module-item__points-possible {
-        margin-top: 0.25rem;
-        align-self: flex-start;
-      }
-    }
 
+      .module-item__icon {
+        flex-shrink: 3;
+        font-size: 1.5rem;
+      }
 
-    .module-item__checkmark {
-      flex-shrink: 3;
+      .module-item__title {
+        margin-left: 1.5rem;
+        flex-grow: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        button, span {
+          align-self: flex-start;
+          color: inherit;
+        }
+        .module-item__points-possible {
+          margin-top: 0.25rem;
+          align-self: flex-start;
+        }
+      }
+
+      .module-item__checkmark {
+        flex-shrink: 3;
+        color: $success;
+      }
     }
   }
 }
