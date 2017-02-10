@@ -10,3 +10,9 @@ services:
     build: .
     volumes_from:
       - test-data:rw
+
+  transifex:
+    # image: instructure/ruby-node-pg:r2.4n6.x
+    build: .
+    volumes:
+    -  ./:/usr/src/app
