@@ -1,6 +1,4 @@
-.env
-.tags
 node_modules
-Gemfile.lock
 dist
 coverage
+.tags
