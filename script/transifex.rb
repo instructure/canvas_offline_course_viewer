@@ -69,7 +69,7 @@ def commit_changes_to_gerrit
   else
     changed_files.each { |file| run ["git", "add", file] }
     run ["git", "commit", "-m", "new translations :robot-face: :i18n:"]
-    run ["git", "push", "origin", "transifex-test:refs/for/master%submit,l=Verified+1,#{REVIEWERS}"]
+    run ["git", "push", "origin", "master:refs/for/master%submit,l=Verified+1,#{REVIEWERS}"]
   end
 end
 
