@@ -1,1 +1,0 @@
-this is the folder1/test.txt file
