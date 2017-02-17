@@ -1,6 +1,5 @@
 require 'json'
-
-ENGLISH_TRANSLATION_FILE = "config/locales/generated/en.json"
+require_relative 'script-common'
 
 strings_before = JSON.parse(File.read(ENGLISH_TRANSLATION_FILE))['en']
 system "node_modules/.bin/i18nliner export --directory=lib"

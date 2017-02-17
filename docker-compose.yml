@@ -16,8 +16,3 @@ services:
     build: .
     volumes:
     -  ./:/usr/src/app
-
-  ansible:
-    image: williamyeh/ansible:ubuntu16.04-onbuild
-    volumes:
-    - ./:/usr/src/app
