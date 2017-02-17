@@ -1,6 +1,6 @@
 {
   "name": "canvas_offline_course_viewer",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "the viewer code for canvas offline course packages",
   "main": "lib/index.js",
   "scripts": {
