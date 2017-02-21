@@ -1,6 +1,6 @@
 {
   "name": "canvas_offline_course_viewer",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "the viewer code for canvas offline course packages",
   "main": "lib/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "webpack": "webpack --colors --progress -d",
     "webpack:prod": "webpack --colors --progress -p",
     "webpack:watch": "webpack --colors --progress --watch -d",
-    "i18n:export": "ruby script/update-english-strings",
+    "i18n:export": "ruby script/update-english-strings.rb",
     "i18n:check": "i18nliner check --directory=lib",
     "update-i18nliner-extension": "curl -o vendor/i18n_js_extension.js https://raw.githubusercontent.com/jenseng/i18nliner-js/master/build/i18n_js_extension.js",
     "lint": "eslint lib",
