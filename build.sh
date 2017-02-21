@@ -18,4 +18,4 @@ docker-compose up -d
 
 docker cp $(docker-compose ps -q test-data):/usr/src/app/coverage/. coverage
 docker-compose stop
-docker-compose rm -f
+docker-compose rm -fv
