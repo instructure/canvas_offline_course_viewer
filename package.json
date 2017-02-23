@@ -72,6 +72,7 @@
     "jest": "^18.1.0",
     "json-loader": "^0.5.4",
     "lodash": "^4.17.4",
+    "moment": "^2.17.1",
     "node-sass": "^4.1.1",
     "postcss": "^5.2.8",
     "postcss-loader": "^1.2.1",
