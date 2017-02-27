@@ -11,15 +11,14 @@ $textOnly: #4b6373;
 }
 
 .modules__folder-icon-wrapper {
-  float: right;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   span {
     padding-top: 0.2rem;
   }
 }
 
 .module-item__wrapper {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
 
   table {
     margin-top: 1rem;
@@ -75,4 +74,38 @@ $textOnly: #4b6373;
 
 .module-item__row__locked {
   color: $grayedOut;
+}
+
+.modules__prerequisites {
+  padding: 0 20px;
+}
+
+.modules__status-icon {
+  margin: 0 16px;
+}
+
+.modules__lock-date {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 0;
+}
+
+.module__attributes-wrapper {
+  display: flex;
+}
+
+.module__name {
+  flex: 1 1 auto;
+}
+
+.modules__completion-pill {
+  margin: 0;
+  padding: 1px 10px;
+  border-radius: 1rem;
+  border: 1px solid;
+}
+
+.modules__access-details {
+  display: flex;
 }
