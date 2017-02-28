@@ -1,9 +1,11 @@
+@import 'colors';
+
 .file-table {
   width: 100%;
 }
 
 .file-table th {
-  border-bottom: 1px solid #C7CDD1;
+  border-bottom: 1px solid $borderColor;
   text-align: left;
   padding-bottom: 12px;
 }
@@ -13,7 +15,7 @@
 }
 
 .file__icon {
-  color: #2D3B45;
+  color: $iconColor;
   margin-right: 12px;
   font-size: 32px;
 }

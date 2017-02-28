@@ -1,10 +1,10 @@
-$tableborder: #C7CDD1;
+@import 'colors';
 
 .page-header {
   display: flex;
   justify-content: space-between;
   padding: 1rem 0.5rem;
-  border-bottom: 1px solid $tableborder;
+  border-bottom: 1px solid $borderColor;
 }
 
 .page-header__breadcrumb {

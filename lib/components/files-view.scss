@@ -1,3 +1,5 @@
+@import 'colors';
+
 .files-view__directions {
   height: 0;
   overflow: hidden;
@@ -11,8 +13,8 @@
   margin-top: 36px;
   margin-left: 32px;
   margin-right: 48px;
-  border-top: 1px solid #C7CDD1;
-  border-bottom: 1px solid #C7CDD1;
+  border-top: 1px solid $borderColor;
+  border-bottom: 1px solid $borderColor;
 }
 
 .files-view__folders {
@@ -21,7 +23,7 @@
 
 .files-view__list {
   flex: 3;
-  border-left: 1px solid #C7CDD1;
+  border-left: 1px solid $borderColor;
   min-height: 300px;
   font-size: 0.875rem;
   padding: 6px;
