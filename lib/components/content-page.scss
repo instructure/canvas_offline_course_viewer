@@ -28,7 +28,20 @@
 }
 
 .content__footer {
+  display: flex;
+  justify-content: space-between;
   border-top: $borderColor 1px solid;
   margin-top: 2rem;
-  padding-top: 0.5rem;
+  padding-top: 1.25rem;
+
+  svg {
+    vertical-align: text-top;
+  }
+
+  .content__empty-next-link {
+    width: 3.95rem;
+  }
+  .content__empty-prev-link {
+    width: 5.5rem;
+  }
 }
