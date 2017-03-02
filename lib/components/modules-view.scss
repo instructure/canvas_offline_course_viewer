@@ -2,6 +2,7 @@
 
 $success: #00AC18;
 $grayedOut: #c1c9cf;
+$textOnly: #4b6373;
 
 .modules__folder-icon {
   color: $iconColor;
@@ -66,6 +67,10 @@ $grayedOut: #c1c9cf;
       }
     }
   }
+}
+
+.module-item__text-only {
+  color: $textOnly;
 }
 
 .module-item__row__locked {
