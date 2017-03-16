@@ -1,4 +1,9 @@
 @import 'colors';
+$baseLineHeight: 20px;
+$baseFontSize: 14px;
+$baseBorderRadius: 3px;
+$sg-codefont: "Monaco", "Courier", monospace !default;
+$ic-font-family: "LatoWeb", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 .body.content__body {
   padding-top: 4rem;
@@ -24,7 +29,29 @@
 }
 
 .content__content {
+  color: $canvasDark;
+  font-family: $ic-font-family;
+  a {
+    color: $canvasBrandPrimary;
+    &:focus, &:hover { color: darken($canvasBrandPrimary, 10%); }
+  }
 
+  pre {
+    padding: 0 3px 2px;
+    font-family: $sg-codefont;
+    font-size: $baseFontSize - 2;
+    display: block;
+    padding: ($baseLineHeight - 1) / 2;
+    margin: 0 0 $baseLineHeight / 2;
+    line-height: $baseLineHeight;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre;
+    white-space: pre-wrap;
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: $baseBorderRadius;
+  }
 }
 
 .content__footer {

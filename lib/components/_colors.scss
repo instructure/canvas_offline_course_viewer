@@ -1,2 +1,5 @@
 $borderColor: #C7CDD1;
-$iconColor: #2D3B45;
+/* Using high contrast colors, since we're not exporting the high contrast setting for a user */
+$canvasDark: #2D3B45;
+$canvasBrandPrimary: #0770A3;
+$canvasBgLightNeutral: #EBEDEE;
