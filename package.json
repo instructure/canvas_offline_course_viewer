@@ -40,6 +40,9 @@
       "html",
       "lcov",
       "cobertura"
+    ],
+    "setupFiles": [
+      "./lib/util/theme"
     ]
   },
   "devDependencies": {
@@ -68,7 +71,7 @@
     "i18nliner": "^0.1.6",
     "identity-obj-proxy": "^3.0.0",
     "instructure-icons": "^1.1.1",
-    "instructure-ui": "^0.18.2",
+    "instructure-ui": "^1.2.0",
     "jest": "^18.1.0",
     "json-loader": "^0.5.4",
     "lodash": "^4.17.4",

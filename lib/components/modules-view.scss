@@ -25,14 +25,9 @@ $textOnly: #4b6373;
   }
 }
 
-.module-item__row:first-of-type {
-  border-top:  1px solid $borderColor;
-}
-
 .module-item__row {
   td {
-    border-left: 1px solid $borderColor;
-    border-right: 1px solid $borderColor;
+    border: 1px solid $borderColor;
   }
 }
 
