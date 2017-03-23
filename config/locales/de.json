@@ -3,6 +3,7 @@
     "en": {
       "modules_c4325335": "Module",
       "files_c300e900": "Dateien",
+      "unavailable_content_cdd53bce": "",
       "due_a73610f6": "Fällig",
       "points_bb475533": "Punkte",
       "submitting_33950bad": "Wird eingereicht",
@@ -41,6 +42,7 @@
       "expand_tree_item_ae8cab9b": "Strukturelement einblenden",
       "label_level_treelevel_a3c0ef4a": "%{label}, Ebene %{treelevel}",
       "folder_tree_7d3788f1": "Ordnerstruktur",
+      "this_content_is_not_available_for_viewing_in_this__55a7b68a": "",
       "byte_793c014d": "Byte",
       "bytes_b56dc593": "Bytes",
       "kb_d9c53902": "KB",

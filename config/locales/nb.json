@@ -3,6 +3,7 @@
     "en": {
       "modules_c4325335": "Moduler",
       "files_c300e900": "Filer",
+      "unavailable_content_cdd53bce": "",
       "due_a73610f6": "Leveres innen",
       "points_bb475533": "Poeng",
       "submitting_33950bad": "Må leveres",
@@ -41,6 +42,7 @@
       "expand_tree_item_ae8cab9b": "utvid treelement",
       "label_level_treelevel_a3c0ef4a": "%{label}, nivå %{treelevel}",
       "folder_tree_7d3788f1": "mappetre",
+      "this_content_is_not_available_for_viewing_in_this__55a7b68a": "",
       "byte_793c014d": "bit",
       "bytes_b56dc593": "biter",
       "kb_d9c53902": "KB",

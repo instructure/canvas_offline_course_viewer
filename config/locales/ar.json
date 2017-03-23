@@ -3,6 +3,7 @@
     "en": {
       "modules_c4325335": "الوحدات",
       "files_c300e900": "الملفات",
+      "unavailable_content_cdd53bce": "",
       "due_a73610f6": "تاريخ الاستحقاق",
       "points_bb475533": "النقاط",
       "submitting_33950bad": "جارٍ الإرسال",
@@ -41,6 +42,7 @@
       "expand_tree_item_ae8cab9b": "توسيع عناصر الشجرة",
       "label_level_treelevel_a3c0ef4a": "%{label}مستوى , %{treelevel}",
       "folder_tree_7d3788f1": "شجرة المجلد",
+      "this_content_is_not_available_for_viewing_in_this__55a7b68a": "",
       "byte_793c014d": "بايت",
       "bytes_b56dc593": "بايت",
       "kb_d9c53902": "كيلوبايت",

@@ -3,6 +3,7 @@
     "en": {
       "modules_c4325335": "Ngā kōwae",
       "files_c300e900": "Ngā Kōnae",
+      "unavailable_content_cdd53bce": "",
       "due_a73610f6": "e tika ana",
       "points_bb475533": "Ngā Piro",
       "submitting_33950bad": "E tuku ana",
@@ -41,6 +42,7 @@
       "expand_tree_item_ae8cab9b": "Whakanui rakau tuemi",
       "label_level_treelevel_a3c0ef4a": "%{label}paparite %{treelevel}",
       "folder_tree_7d3788f1": "Rākau kōpaki",
+      "this_content_is_not_available_for_viewing_in_this__55a7b68a": "",
       "byte_793c014d": "paita",
       "bytes_b56dc593": "Ngā paita",
       "kb_d9c53902": "KB",
