@@ -106,3 +106,12 @@ $textOnly: #4b6373;
 .modules__access-details {
   display: flex;
 }
+
+@mixin indent-sizes($class, $one, $two, $three, $four, $five) {
+  .#{$class}-1 { padding-left: $one; }
+  .#{$class}-2 { padding-left: $two; }
+  .#{$class}-3 { padding-left: $three; }
+  .#{$class}-4 { padding-left: $four; }
+  .#{$class}-5 { padding-left: $five; }
+}
+@include indent-sizes("module-item__indent", 20px, 40px, 60px, 80px, 100px);

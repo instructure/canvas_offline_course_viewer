@@ -6,11 +6,12 @@ $sg-codefont: "Monaco", "Courier", monospace !default;
 $ic-font-family: "LatoWeb", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 .body.content__body {
-  padding-top: 4rem;
+  padding-top: 2rem;
   width: 70%;
 }
 
 .content__title {
+  padding-top: 2rem;
   margin-bottom: 0.5rem;
 }
 
@@ -70,5 +71,12 @@ $ic-font-family: "LatoWeb", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   .content__empty-prev-link {
     width: 5.5rem;
+  }
+}
+
+.content__participate-online {
+  display: flex;
+  span {
+    padding-left: 0.25rem;
   }
 }
