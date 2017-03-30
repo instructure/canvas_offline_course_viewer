@@ -2,6 +2,7 @@
   "en": {
     "modules_c4325335": "Modules",
     "files_c300e900": "Files",
+    "page_unavailable_1a4b1ce7": "Page Unavailable",
     "unavailable_content_cdd53bce": "Unavailable Content",
     "due_a73610f6": "Due",
     "points_bb475533": "Points",
@@ -37,7 +38,7 @@
     "locked_until_date_d30cc3b5": "Locked until %{date}",
     "will_unlock_online_date_2cc8ef69": "Will unlock online %{date}",
     "module_items_bca29296": "module items",
-    "this_content_is_only_available_online_469de869": "This content is only available online",
+    "this_page_is_not_available_offline_to_view_this_pa_638e77da": "This page is not available offline. To view this page, please visit your course online.",
     "version_versionnumber_9f24c75e": "version: %{versionNumber}",
     "last_export_899a04c5": "Last Export:",
     "assignments_can_only_be_submitted_online_52461f84": "Assignments can only be submitted online.",
