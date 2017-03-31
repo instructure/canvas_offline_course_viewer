@@ -3,6 +3,7 @@
     "en": {
       "modules_c4325335": "Modules",
       "files_c300e900": "Bestanden",
+      "page_unavailable_1a4b1ce7": "",
       "unavailable_content_cdd53bce": "",
       "due_a73610f6": "Inleverdatum",
       "points_bb475533": "Punten",
@@ -38,7 +39,7 @@
       "locked_until_date_d30cc3b5": "Vergrendeld tot %{date}",
       "will_unlock_online_date_2cc8ef69": "Wordt online ontgrendeld %{date}",
       "module_items_bca29296": "module-items",
-      "this_content_is_only_available_online_469de869": "Deze inhoud is alleen online beschikbaar",
+      "this_page_is_not_available_offline_to_view_this_pa_638e77da": "",
       "version_versionnumber_9f24c75e": "versie: %{versionNumber}",
       "last_export_899a04c5": "Laatste export:",
       "assignments_can_only_be_submitted_online_52461f84": "",

@@ -3,6 +3,7 @@
     "en": {
       "modules_c4325335": "Moduler",
       "files_c300e900": "Filer",
+      "page_unavailable_1a4b1ce7": "",
       "unavailable_content_cdd53bce": "",
       "due_a73610f6": "Leveres innen",
       "points_bb475533": "Poeng",
@@ -38,7 +39,7 @@
       "locked_until_date_d30cc3b5": "Låst frem til %{date}",
       "will_unlock_online_date_2cc8ef69": "Låses opp på nett %{date}",
       "module_items_bca29296": "modulenheter",
-      "this_content_is_only_available_online_469de869": "Dette innholdet er alltid tilgjengelig på nett",
+      "this_page_is_not_available_offline_to_view_this_pa_638e77da": "",
       "version_versionnumber_9f24c75e": "versjon: %{versionNumber}",
       "last_export_899a04c5": "Siste eksport:",
       "assignments_can_only_be_submitted_online_52461f84": "",
