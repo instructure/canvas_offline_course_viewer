@@ -42,6 +42,7 @@
       "cobertura"
     ],
     "setupFiles": [
+      "./lib/test-setup.js",
       "./lib/util/theme"
     ]
   },
